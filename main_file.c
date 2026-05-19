@@ -4,7 +4,8 @@
 #include <curl/curl.h> // library for connecting with apis/sites
 
 // URL FROM MOCK.API - constant definiton (link)
-#define API_URL "https://6a09e244e7e3f433d4838ad5.mockapi.io/api/base/status/1"
+// #define API_URL "https://6a09e244e7e3f433d4838ad5.mockapi.io/api/base/status/1"
+#define API_URL "https://6a0c3d595aa893e1015b462b.mockapi.io/live-tracker/status/1"
 
 void send_status_to_cloud(bool status) {
     CURL *curl = curl_easy_init();
