@@ -6,7 +6,7 @@ const char* ssid     = "WEiTI";
 const char* password = "WD@eB7+Fj";
 
 // 2. WPISZ PEŁNY LINK DO TWOJEGO MOCKAPI (ten sam, co w kodzie C)
-const char* apiUrl   = "https://6789abcdef.mockapi.io/api/v1/keys/1"; 
+const char* apiUrl   = "https://6a0c3d595aa893e1015b462b.mockapi.io/live-tracker/status/1"
 
 const int buttonPin = 4; // Nasz pin G4, do którego idzie guzik
 int lastButtonState = HIGH;
